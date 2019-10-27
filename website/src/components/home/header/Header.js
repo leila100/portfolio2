@@ -1,6 +1,6 @@
 import React from "react";
 
-import homeIcons from "../../assets/images/icons.png";
+import homeIcons from "../../../assets/images/icons.png";
 
 const Header = () => {
   return (
