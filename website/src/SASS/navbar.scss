@@ -40,30 +40,30 @@
             width: 90%;
             margin: auto;
         }
-
-        .icons {
-            background-color: $highlight;
-            border-radius: 55px;
-            font-size: 2.2rem;
-            padding: 14px 30px 12px 30px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 50%;
-            transition: background-color 10s;
-
-            @media (max-width: 1300px) {
-                width: 40%;
-            }
-
-            @media (max-width: 600px) {
-                width: 50%;
-            }
-
-            a:hover {
-                color: $bg-dark;
-            }
-        }
     }
+
+    .icons {
+    background-color: $highlight;
+    border-radius: 55px;
+    font-size: 2.2rem;
+    padding: 14px 30px 12px 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    transition: background-color 10s;
+
+    @media (max-width: 1300px) {
+        width: 40%;
+    }
+
+    @media (max-width: 600px) {
+        width: 50%;
+    }
+
+    a:hover {
+        color: $bg-dark;
+    }
+}
 }

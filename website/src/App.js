@@ -16,6 +16,18 @@ function App() {
                 <div class='name'>LEILA BERROUAYEL</div>
                 <div class='job'>WEB/SOFTWARE DEVELOPER</div>
                 <div class='desc'>Reliable . Committed . Dependable</div>
+                <div class='links'>
+                  <div class='link'>
+                    <a href='#' target='_blank' rel='noopener noreferrer'>
+                      PROJECTS
+                    </a>
+                  </div>
+                  <div class='link'>
+                    <a href='#' target='_blank' rel='noopener noreferrer'>
+                      RESUME
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
