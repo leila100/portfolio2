@@ -84,7 +84,6 @@
                 .links {
                     background-color: transparent;
                     width: 90%;
-                    text-align: center;
 
                     .link {
                         background-color: transparent;
@@ -96,6 +95,11 @@
                         color: $bg-dark;
                         display: inline;
                         margin: 0 5%;
+
+                        @media (max-width: 900px) {
+                            margin: 0;
+                            margin-right: 5%;
+                        }
                     }
 
                     .link:hover {
