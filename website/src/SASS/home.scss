@@ -82,31 +82,6 @@
                     }
                 }
 
-                .links {
-                    background-color: transparent;
-                    width: 90%;
-
-                    .link {
-                        background-color: transparent;
-                        border: 4px solid $bg-dark;
-                        border-radius: 55px;
-                        font-size: 2.2rem;
-                        padding: 14px 30px 12px 30px;
-                        cursor: pointer;
-                        color: $bg-dark;
-                        display: inline;
-                        margin: 0 5%;
-
-                        @media (max-width: 900px) {
-                            margin: 0;
-                            margin-right: 5%;
-                        }
-                    }
-
-                    .link:hover {
-                        border: 4px solid $highlight;
-                    }
-                }
             }
         }
     }
@@ -175,6 +150,7 @@
                 color: $bg-dark;
                 margin-bottom: 10px;
                 font-family: 'Lora', serif;
+                font-weight: bold;
             }
 
             p {

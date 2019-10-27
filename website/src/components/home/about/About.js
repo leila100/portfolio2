@@ -5,7 +5,7 @@ const About = () => {
     <section class='about'>
       <h2>
         <div>
-          Web Developer<span>||</span>
+          <span>||</span>Web Developer<span>||</span>
         </div>
         <div>React, Node, JavaScript, Python, CSS</div>
         <div>
