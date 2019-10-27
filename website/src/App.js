@@ -1,9 +1,12 @@
 import React from "react";
 import homeIcons from "./assets/images/icons.png";
 
+import Navbar from "./components/navigation/Navbar";
+
 function App() {
   return (
     <div className='App'>
+      <Navbar />
       <header>
         <div class='header_container'>
           <div class='header-frame'>
@@ -12,6 +15,7 @@ function App() {
               <div class='intro'>
                 <div class='name'>LEILA BERROUAYEL</div>
                 <div class='job'>WEB/SOFTWARE DEVELOPER</div>
+                <div class='desc'>Reliable . Committed . Dependable</div>
               </div>
             </div>
           </div>
