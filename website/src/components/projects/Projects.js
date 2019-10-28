@@ -20,6 +20,12 @@ const Projects = () => {
             </p>
           </div>
           <div class='details'>
+            <div class='skills'>
+              <h4>Tech</h4>
+              <div>
+                <span>||</span>React<span>||</span>GraphQL<span>||</span>Sqlite3<span>||</span>Strip<span>||</span>
+              </div>
+            </div>
             <img src={Hello} alt='Hello Melon App' />
             <div class='links'>
               <div class='link'>
@@ -49,6 +55,13 @@ const Projects = () => {
             </p>
           </div>
           <div class='details'>
+            <div class='skills'>
+              <h4>Tech</h4>
+              <div>
+                <span>||</span>React<span>||</span>Redux<span>||</span>Node<span>||</span>Sqlite3<span>||</span>Sendgrid
+                <span>||</span>
+              </div>
+            </div>
             <img src={FMN_home} alt='Forget Me Not App' />
             <div class='links'>
               <div class='link'>
@@ -78,6 +91,12 @@ const Projects = () => {
             </p>
           </div>
           <div class='details'>
+            <div class='skills'>
+              <h4>Tech</h4>
+              <div>
+                <span>||</span>React<span>||</span>Django<span>||</span>Sqlite3<span>||</span>Pusher<span>||</span>
+              </div>
+            </div>
             <img src={mud} alt='Lambda MUD App' />
             <div class='links'>
               <div class='link'>
