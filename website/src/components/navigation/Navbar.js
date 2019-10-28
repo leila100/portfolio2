@@ -4,9 +4,13 @@ const Navbar = () => {
   return (
     <div class='fixed'>
       <nav class='navbar'>
-        <div class='name'>Leila Berrouayel</div>
+        <div class='name'>
+          <a href='#home'>Leila Berrouayel</a>
+        </div>
         <div class='links'>
-          <div class='item'>Projects</div>
+          <div class='item'>
+            <a href='#proj'>Projects</a>
+          </div>
           <div class='item'>Resume</div>
           <div class='icons'>
             <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>

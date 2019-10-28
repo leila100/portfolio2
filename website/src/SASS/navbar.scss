@@ -25,6 +25,10 @@
         @media (max-width: 600px) {
             display: none;
         }
+
+        a:hover {
+            color: $highlight;
+        }
     }
 
     .links {
@@ -34,6 +38,10 @@
         align-items: center;
         width: 35%;
         color: white;
+
+        .item a:hover {
+            color: $highlight;
+        }
 
         @media (max-width: 1300px) {
             width: 50%;

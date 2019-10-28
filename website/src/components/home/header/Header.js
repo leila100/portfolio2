@@ -4,7 +4,7 @@ import homeIcons from "../../../assets/images/icons.png";
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div class='header_container'>
         <div class='header-frame'>
           <div class='header-content'>
@@ -15,9 +15,7 @@ const Header = () => {
               <div class='desc'>Reliable . Committed . Dependable</div>
               <div class='links'>
                 <div class='link'>
-                  <a href='#' target='_blank' rel='noopener noreferrer'>
-                    PROJECTS
-                  </a>
+                  <a href='#proj'>PROJECTS</a>
                 </div>
                 <div class='link'>
                   <a href='#' target='_blank' rel='noopener noreferrer'>

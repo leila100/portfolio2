@@ -1,0 +1,31 @@
+.links {
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+
+    .link {
+        background-color: transparent;
+        border: 4px solid $bg-dark;
+        border-radius: 55px;
+        font-size: 1.8rem;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        color: $bg-dark;
+        display: inline;
+        margin: 0 5%;
+
+        @media (max-width: 900px) {
+            margin: 0;
+            margin-right: 5%;
+        }
+
+        @media (max-width: 600px) {
+            padding: 5px 10px 5px 10px;
+            font-size: 1.5rem;
+        }
+    }
+
+    .link:hover {
+        border: 4px solid $highlight;
+    }
+}
