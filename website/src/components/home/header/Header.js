@@ -1,6 +1,7 @@
 import React from "react";
 
 import homeIcons from "../../../assets/images/icons.png";
+import resume from "../../../assets/images/Resume - Leila berrouayel.pdf";
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
                   <a href='#proj'>PROJECTS</a>
                 </div>
                 <div class='link'>
-                  <a href='#' target='_blank' rel='noopener noreferrer'>
+                  <a href={resume} target='_blank' rel='noopener noreferrer'>
                     RESUME
                   </a>
                 </div>

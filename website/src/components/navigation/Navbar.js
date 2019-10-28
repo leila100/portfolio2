@@ -1,5 +1,7 @@
 import React from "react";
 
+import resume from "../../assets/images/Resume - Leila berrouayel.pdf";
+
 const Navbar = () => {
   return (
     <div class='fixed'>
@@ -11,7 +13,11 @@ const Navbar = () => {
           <div class='item'>
             <a href='#proj'>Projects</a>
           </div>
-          <div class='item'>Resume</div>
+          <div class='item'>
+            <a href={resume} target='_blank' rel='noopener noreferrer'>
+              Resume
+            </a>
+          </div>
           <div class='icons'>
             <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>
               <i className='far fa-envelope' />
