@@ -1,3 +1,7 @@
+section {
+    margin: 50px auto;
+}
+
 .projects {
     @media (max-width: 900px) {
         max-width: 660px;
@@ -78,4 +82,93 @@
             }
         }
     }
+}
+
+#HMimg {
+    height: 65px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#HMintro {
+    width: 400px;
+
+    @media (max-width: 900px) {
+        width: auto;
+    }
+
+    .link {
+        margin-top: 10px;
+    }
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 1000px;
+
+    @media (max-width: 900px) {
+        max-width: 660px;
+    }
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1.5;
+        color: $bg-dark;
+        font-family: 'Lora', serif;
+
+        @media (max-width: 900px) {
+            font-size: 2.5rem;
+        }
+
+        @media (max-width: 700px) {
+            font-size: 2.2rem;
+        }
+    }
+
+    .feature {
+        margin: 20px 10px;
+
+        h3 {
+            font-size: 2.4rem;
+            color: $bg-dark;
+            font-family: 'Lora', serif;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.7rem;
+            line-height: 1.5;
+            font-family: 'Lora', serif;
+        }
+
+        .imgs {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            margin-top: 20px;
+
+            a img {
+                width: 95%;
+                border: 1px solid $bg-dark;
+                box-shadow: 5px 5px $bg-dark;
+
+                @media (max-width: 900px) {
+                    width: 100%;
+                    margin: 10px auto;
+                }
+            }
+
+            @media (max-width: 900px) {
+                flex-direction: column;
+            }
+        }
+    }
+
+
+
 }
