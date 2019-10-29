@@ -3,14 +3,16 @@ import { Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/navigation/Navbar";
 import Home from "./components/home/Home";
-import Projects from "./components/projects/Projects";
+import HelloMelon from "./components/projects/HelloMelon";
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <Navbar />
-      <Home />
-      <Projects />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/hello-melon' component={HelloMelon} />
+      </Switch>
     </div>
   );
 }

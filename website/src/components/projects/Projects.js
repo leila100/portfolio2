@@ -39,9 +39,7 @@ const Projects = () => {
                 </a>
               </div>
               <div class='link'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
-                  DETAILS
-                </a>
+                <a href='/hello-melon'>DETAILS</a>
               </div>
             </div>
           </div>

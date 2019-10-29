@@ -7,11 +7,11 @@ const Navbar = () => {
     <div class='fixed'>
       <nav class='navbar'>
         <div class='name'>
-          <a href='#home'>Leila Berrouayel</a>
+          <a href='/#home'>Leila Berrouayel</a>
         </div>
         <div class='links'>
           <div class='item'>
-            <a href='#proj'>Projects</a>
+            <a href='/#proj'>Projects</a>
           </div>
           <div class='item'>
             <a href={resume} target='_blank' rel='noopener noreferrer'>
