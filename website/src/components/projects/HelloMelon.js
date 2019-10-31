@@ -15,8 +15,8 @@ const HelloMelon = () => {
         <div class='header_container'>
           <div class='header-frame'>
             <div class='header-content'>
-              <img src={helloMelon} alt='Icons for Javascript - React - Node' id='HMimg' />
-              <div class='intro' id='HMintro'>
+              <img src={helloMelon} alt='Logo for Hello Melon' id='logo' />
+              <div class='intro' id='appIntro'>
                 <div class='name'>HELLO MELON</div>
                 <div class='job'>Take control of your health</div>
                 <div class='links'>

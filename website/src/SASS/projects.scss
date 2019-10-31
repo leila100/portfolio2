@@ -84,14 +84,14 @@ section {
     }
 }
 
-#HMimg {
+#logo {
     height: 65px;
     width: 200px;
     margin-right: 10px;
 }
 
-#HMintro {
-    width: 400px;
+#appIntro {
+    width: 430px;
 
     @media (max-width: 900px) {
         width: auto;

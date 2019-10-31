@@ -73,7 +73,7 @@ const Projects = () => {
                 </a>
               </div>
               <div class='link'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
+                <a href='/fmn' target='_blank' rel='noopener noreferrer'>
                   DETAILS
                 </a>
               </div>
