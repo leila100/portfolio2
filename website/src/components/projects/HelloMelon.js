@@ -67,7 +67,9 @@ const HelloMelon = () => {
         </div>
       </section>
       <section class='features'>
-        <h2>FEATURES</h2>
+        <h2>
+          <span>||</span>FEATURES<span>||</span>
+        </h2>
         <div class='feature'>
           <h3>Keep track of daily food intake and exercises (workouts)</h3>
           <p>
@@ -112,6 +114,45 @@ const HelloMelon = () => {
             <a href={HMcoach2} target='_blank' rel='noopener noreferrer'>
               <img src={HMcoach2} alt='Hello Melon Coach' />
             </a>
+          </div>
+        </div>
+      </section>
+      <section class='about'>
+        <h2>
+          <span>||</span>CHALLENGES<span>||</span>
+        </h2>
+        <div class='descriptions'>
+          <div class='desc'>
+            <h3>Communication</h3>
+            <p>
+              Effective communication is the most important part of teamwork and involves consistently updating each
+              person and never assuming that everyone has the same information.{" "}
+            </p>
+            <p>
+              This team communicated very well and were able to overcome obstacles, like loosing team members and
+              learning new technology.
+            </p>
+          </div>
+          <div class='desc'>
+            <h3>Division of work</h3>
+            <p>
+              Teams that work well together understand the strengths and weaknesses of each team member. Because we have
+              never worked together before, it was hard to divide the work. We used a Trello board, and We relied on
+              volunteering.
+            </p>
+            <p>Thankfully, all team members were eager to take on the work even if the tasks were challenging.</p>
+          </div>
+          <div class='desc'>
+            <h3>Learning new Technology</h3>
+            <p>
+              Learning a new technology in a limited time is challenging, but we knew we wanted to use a technology none
+              of us ever used before.
+            </p>
+            <p>
+              Once we've chosen the technology (Graphql), we made sure that everybody felt comfortable learning it,
+              using it, and can handle any difficulties implementing it. We did that by communicating, pair codding, and
+              fixing problems together.
+            </p>
           </div>
         </div>
       </section>
