@@ -42,10 +42,10 @@ const HelloMelon = () => {
             <span>||</span> React<span>||</span> GraphQL<span>||</span>
           </div>
           <div>
-            sqlite3<span>||</span> Strip<span>||</span> chat.js<span>||</span> Full Calendar
+            sqlite3<span>||</span> Strip<span>||</span> chart.js<span>||</span> FullCalendar
           </div>
           <div>
-            <span>||</span> Styled Components<span>||</span> MaterialUI<span>||</span>
+            <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
           </div>
         </h2>
         <div class='descriptions'>
