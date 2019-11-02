@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/hello-melon' component={HelloMelon} />
-        <Route exact path='/fmn' component={ForgetMeNot} />
-        <Route exact path='/mud' component={LambdaMUD} />
+        <Route path='/hello-melon' component={HelloMelon} />
+        <Route path='/fmn' component={ForgetMeNot} />
+        <Route path='/mud' component={LambdaMUD} />
       </Switch>
     </div>
   );
