@@ -111,6 +111,38 @@ const LambdaMUD = () => {
           </div>
         </div>
       </section>
+      <section class='about'>
+        <h2>
+          <span>||</span>CHALLENGES<span>||</span>
+        </h2>
+        <div class='descriptions'>
+          <div class='desc'>
+            <h3>Communication</h3>
+            <p>
+              Effective communication is the most important part of teamwork and involves consistently updating each
+              person and never assuming that everyone has the same information.{" "}
+            </p>
+            <p>
+              The team had communication problems that got resolved after feedback from team leads in Lambda School.
+            </p>
+          </div>
+          <div class='desc'>
+            <h3>Learning new Technology</h3>
+            <p>
+              Learning a new technology in a limited time is challenging, but we were required to use Django and Pusher.
+            </p>
+            <p>- Learned Django in about two days and built the BE required functionality from scratch. </p>
+            <p>
+              - Implemented Pusher, on the last day of the project, to add chatting capabilities to the application.
+            </p>
+          </div>
+          <div class='desc'>
+            <h3>Division of work</h3>
+            <p>Used a Trello board to divide and communicate the feature currently being built.</p>
+            <p>Was responsible for coding the whole backend server.</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
