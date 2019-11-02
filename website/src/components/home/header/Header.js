@@ -1,6 +1,6 @@
 import React from "react";
 
-import homeIcons from "../../../assets/images/icons.png";
+import leila from "../../../assets/images/Leila.jpg";
 import resume from "../../../assets/images/Resume - Leila berrouayel.pdf";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
       <div class='header_container'>
         <div class='header-frame'>
           <div class='header-content'>
-            <img src={homeIcons} alt='Icons for Javascript - React - Node' />
+            <img src={leila} alt='Icons for Javascript - React - Node' />
             <div class='intro'>
               <div class='name'>LEILA BERROUAYEL</div>
               <div class='job'>WEB/SOFTWARE DEVELOPER</div>
