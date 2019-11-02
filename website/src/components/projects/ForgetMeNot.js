@@ -122,6 +122,47 @@ const ForgetMeNot = () => {
           </div>
         </div>
       </section>
+      <section class='about'>
+        <h2>
+          <span>||</span>CHALLENGES<span>||</span>
+        </h2>
+        <div class='descriptions'>
+          <div class='desc'>
+            <h3>Communication</h3>
+            <p>
+              Effective communication is the most important part of teamwork and involves consistently updating each
+              person and never assuming that everyone has the same information.{" "}
+            </p>
+            <p>
+              Being the team lead for this project, I had a hard time keeping the communication going between the two
+              front-end developers. They had difficulties finding time for each other, to divide work, and talk about
+              the many functionalities the application needed to have.
+            </p>
+          </div>
+          <div class='desc'>
+            <h3>Division of work</h3>
+            <p>
+              Being the only back-end developer, my work was well defined from the beginning, this is why I chose to act
+              as the team lead.
+            </p>
+            <p>
+              The team had two UI developers, responsible for creating the landing page. The team had also two front-end
+              developers, responsible for the user facing part of the application.
+            </p>
+          </div>
+          <div class='desc'>
+            <h3>Taking new responsibilities</h3>
+            <p>
+              Being the only back-end developer meant that I was responsible for all the data formating and
+              availability. It was a lot of stress but also a good challenge.
+            </p>
+            <p>
+              Since I was the team lead, I had to keep the team talking and schedule multiple meetings to guide the
+              team, and gather all that was still needed to be done, making sure to finish the project on time.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
