@@ -6,11 +6,33 @@ import mud from "../../assets/images/lambdamud.png";
 
 const Projects = () => {
   return (
-    <section class='projects' id='proj'>
+    <section class='projects'>
+      <div id='proj'>{"  "}</div>
       <h2>
         <span>||</span>PROJECTS<span>||</span>
       </h2>
+      {/* <h2>
+        <div>
+          <span>||</span><a href="#helloMelon">Hello Melon</a><span>||</span>
+        </div>
+        <div><a href="#fmn">Forget Me Not</a></div>
+        <div>
+          <span>||</span><a href="#mud">Lambda MUD</a><span>||</span>
+        </div>
+      </h2> */}
+      <div class='links projs'>
+          <div class='link'>
+            <a href='#helloMelon'>Hello Melon</a>
+          </div>
+          <div class='link'>
+            <a href='#fmn'>Forget Me Not</a>
+        </div>
+        <div class='link'>
+            <a href='#mud'>Lambda MUD</a>
+        </div>
+      </div>
       <div class='proj-list'>
+        <div id="helloMelon">{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Hello Melon</h3>
           <div class='description'>
@@ -44,6 +66,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div id="fmn">{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Forget Me Not</h3>
           <div class='description'>
@@ -78,6 +101,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div id="mud">{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Lambda MUD</h3>
           <div class='description'>
