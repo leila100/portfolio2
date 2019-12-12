@@ -15,6 +15,16 @@ const Header = () => {
           <div>
             <div class='name'>Leila Berrouayel</div>
             <div class='qualities'>Reliable . Committed . Dependable</div>
+            <div class='links'>
+              <div class='link'>
+                <a href={resume} target='_blank' rel='noopener noreferrer'>
+                  RESUME
+                </a>
+              </div>
+              <div class='link'>
+                <a href='/#proj'>PROJECTS</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

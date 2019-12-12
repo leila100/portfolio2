@@ -1,6 +1,6 @@
 import React from "react";
 
-import fmn from "../../assets/images/fmn.png";
+import FMN_header from "../../assets/images/FMN_header.jpg";
 import fmn_message from "../../assets/images/FMN_message.png";
 import fmn_message1 from "../../assets/images/FMN_message1.png";
 import fmn_messages from "../../assets/images/FMN_messages.png";
@@ -12,6 +12,29 @@ const ForgetMeNot = () => {
   return (
     <>
       <header id='home'>
+        <div class='header'>
+          <img src={FMN_header} alt='image of forgetMeNot' class='header_img' />
+          <div class='job_title'>Never forget a special day!</div>
+          <div class='header_body'>
+            <div>
+              <div class='name'>FORGET ME NOT</div>
+              <div class='links'>
+                <div class='link'>
+                  <a href='https://forgetmenot.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                    LINK
+                  </a>
+                </div>
+                <div class='link'>
+                  <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
+                    CODE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      {/* <header id='home'>
         <div class='header_container'>
           <div class='header-frame'>
             <div class='header-content'>
@@ -35,7 +58,7 @@ const ForgetMeNot = () => {
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
       <section class='about'>
         <h2>
           <div>
