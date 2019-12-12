@@ -1,5 +1,6 @@
 import React from "react";
 
+import mud_header from "../../assets/images/MUD_header.jpg";
 import mud from "../../assets/images/maze_avatar.png";
 import maze from "../../assets/images/maze.png";
 import directions from "../../assets/images/directions.png";
@@ -11,24 +12,22 @@ const LambdaMUD = () => {
   return (
     <>
       <header id='home'>
-        <div class='header_container'>
-          <div class='header-frame'>
-            <div class='header-content'>
-              <img src={mud} alt='Lambda MUD' id='logo' />
-              <div class='intro' id='appIntro'>
-                <div class='name'>Lambda MUD</div>
-                <div class='job'>Find your way!</div>
-                <div class='links'>
-                  <div class='link'>
-                    <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
-                      LINK
-                    </a>
-                  </div>
-                  <div class='link'>
-                    <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
-                      CODE
-                    </a>
-                  </div>
+        <div class='header'>
+          <img src={mud_header} alt='image of food' class='header_img' />
+          <div class='job_title'>Find your way!</div>
+          <div class='header_body'>
+            <div>
+              <div class='name'>Lambda MUD</div>
+              <div class='links'>
+                <div class='link'>
+                  <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                    LINK
+                  </a>
+                </div>
+                <div class='link'>
+                  <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
+                    CODE
+                  </a>
                 </div>
               </div>
             </div>
