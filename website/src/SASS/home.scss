@@ -1,122 +1,105 @@
-.header_container {
-    background-color: $bg-dark;
-    width: 100%;
-    height: 450px;
-    // border-radius: 0 0 10% 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $bg-dark;
+.header {
+    max-width: 1200px;
+    height: 100%;
+    background-color: $highlight;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    border: 1px solid $bg-dark;
+    box-shadow: 0px 10px $bg-dark;
 
-    .header-frame {
-        background-color: $bg-light;
-        box-shadow: 10px 10px $highlight;
-        width: 60%;
-        height: 300px;
+    @media (max-width: 1300px) {
+        width: 95%;
+    }
+
+    .header_img {
+        height: 160px;
+        width: 100%;
+    }
+
+    .job_title {
+        background-color: #975030;
+        width: 50%;
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+        padding: 20px 30px;
+        position: relative;
+        top: -41px;
+        color: $highlight;
+        z-index: 0;
+
+        @media (max-width: 900px) {
+            width: 60%
+        }
+
+        @media (max-width: 600px) {
+            width: 70%
+        }
+
+        @media (max-width: 500px) {
+            width: 90%;
+            padding: 11px 12px;
+            top: -30px;
+        }
+    }
+
+    .header_body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        margin: 45px 0px;
 
-        @media (max-width: 1300px) {
-            width: 90%;
+        @media (max-width: 900px) {
+            flex-direction: column;
         }
 
+        .leila_img {
+            width: 20%;
+            box-shadow: 0px 10px 10px $bg-dark;
+            border-radius: 3%;
 
-        .header-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
+            @media (max-width: 800px) {
+                height: 140px;
+                width: 180px;
+            }
+        }
+
+        .name {
+            font-size: 79px;
+            color: $text;
+            margin-top: 34px;
+
+            @media (max-width: 900px) {
+                font-size: 70px;
+            }
 
             @media (max-width: 600px) {
-                flex-direction: column;
+                font-size: 60px;
             }
 
-            img {
-                height: 170px;
-                width: 165px;
-                margin-bottom: 50px;
-                margin-right: 10px;
+            @media (max-width: 500px) {
+                font-size: 55px;
+            }
+        }
 
-                @media (max-width: 600px) {
-                    margin-bottom: 0px;
-                    height: 116px;
-                    width: 123px;
-                }
+        .qualities {
+            font-size: 40px;
+            color: $text;
+            margin: 15px;
+
+            @media (max-width: 600px) {
+                font-size: 40px;
             }
 
-            .intro {
-                // width: 66%;
-                width: 500px;
-                font-family: 'Lora', serif;
-                line-height: 1.5;
-
-                @media (max-width: 900px) {
-                    width: auto;
-                }
-
-                .name {
-                    margin-left: 4%;
-                    font-size: 5rem;
-                    // color: $highlight;
-                    color: white;
-
-                    @media (max-width: 900px) {
-                        font-size: 4rem;
-                        margin-left: 0;
-                    }
-
-                    @media (max-width: 600px) {
-                        font-size: 2.2rem;
-                    }
-                }
-
-                .job {
-                    margin-left: 4%;
-                    font-size: 3rem;
-                    // color: $bg-dark;
-                    color: white;
-
-                    @media (max-width: 900px) {
-                        font-size: 2.5rem;
-                        margin-left: 0;
-                    }
-
-                    @media (max-width: 600px) {
-                        font-size: 2rem;
-                    }
-                    @media (max-width: 400px) {
-                        font-size: 1.7rem;
-                    }
-                }
-
-                .desc {
-                    margin-left: 4%;
-                    font-size: 2.5rem;
-                    // color: $bg-dark;
-                    color: white;
-                    margin-bottom: 50px;
-
-                    @media (max-width: 900px) {
-                        font-size: 2.2rem;
-                        margin-left: 0;
-                    }
-
-                    @media (max-width: 600px) {
-                        font-size: 2rem;
-                        margin-bottom: 20px;
-                    }
-
-                    @media (max-width: 400px) {
-                        font-size: 1.5rem;
-                    }
-                }
-
+            @media (max-width: 500px) {
+                font-size: 35px;
             }
         }
     }
 }
+
 
 .about {
     margin: 30px auto;

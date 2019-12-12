@@ -10,12 +10,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: $bg-dark;
+    background-color: $highlight;
+    border-bottom: 1px solid $bg-dark;
 
     .name {
         margin-left: 4%;
         font-size: 2.8rem;
-        color: white;
+        color: $text;
         font-family: 'Lora', serif;
 
         @media (max-width: 900px) {
@@ -27,7 +28,7 @@
         }
 
         a:hover {
-            color: $highlight;
+            color: $bg-dark;
         }
     }
 
@@ -37,10 +38,10 @@
         justify-content: space-between;
         align-items: center;
         width: 35%;
-        color: white;
+        color: $text;
 
         .item a:hover {
-            color: $highlight;
+            color: $bg-dark;
         }
 
         @media (max-width: 1300px) {
@@ -58,7 +59,7 @@
     }
 
     .icons {
-        background-color: $highlight;
+        background-color: $bg-dark;
         border-radius: 55px;
         font-size: 2.2rem;
         padding: 14px 30px 12px 30px;
@@ -67,7 +68,8 @@
         justify-content: space-between;
         align-items: center;
         width: 50%;
-        transition: background-color 10s;
+        transition: background-color 5s;
+        color: $highlight;
 
         @media (max-width: 1300px) {
             width: 40%;
@@ -78,7 +80,7 @@
         }
 
         a:hover {
-            color: $bg-dark;
+            color: $text;
         }
     }
 }

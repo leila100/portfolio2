@@ -153,10 +153,17 @@ body {
   height: 100%;
 }
 
+$bg-dark: #975030;
+$bg-light: #e0cbad;
+$highlight: #F5EEE8;
+$text: #323232;
+
 html {
   margin: 0;
   font-size: 62.5%;
   height: 100%;
+  color: $text;
+  background-color: $highlight;
 }
 
 a {
@@ -168,7 +175,3 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-
-$bg-dark: #628e8c;
-$bg-light: #e0cbad;
-$highlight: #B68A8B;

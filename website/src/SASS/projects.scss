@@ -2,7 +2,10 @@ section {
     margin: 30px auto;
 }
 
-#proj, #helloMelon, #fmn, #mud {
+#proj,
+#helloMelon,
+#fmn,
+#mud {
     margin-bottom: 25px;
     height: 1px;
 }
@@ -17,6 +20,7 @@ section {
         justify-content: center;
         margin-top: 10px;
         width: 100%;
+
         .link {
             margin: 10px;
         }
@@ -52,7 +56,7 @@ section {
                 margin: 10px 0;
 
                 span {
-                    color: $highlight;
+                    color: $text;
                     margin: 0 5px;
                 }
             }
@@ -68,7 +72,7 @@ section {
                 height: 300px;
                 margin: 20px 0;
                 border: 1px solid $bg-dark;
-                box-shadow: 5px 5px $bg-dark;
+                box-shadow: 0px 10px $bg-dark;
 
                 @media (max-width: 500px) {
                     height: 200px;
@@ -115,7 +119,7 @@ section {
         font-family: 'Lora', serif;
 
         span {
-            color: $highlight;
+            color: $text;
             margin: 0 5px;
         }
 
@@ -164,7 +168,7 @@ section {
                 width: 95%;
                 height: 100%;
                 border: 1px solid $bg-dark;
-                box-shadow: 5px 5px $bg-dark;
+                box-shadow: 0px 10px $bg-dark;
 
                 @media (max-width: 900px) {
                     width: 100%;
