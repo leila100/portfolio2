@@ -1,6 +1,7 @@
 import React from "react";
 
 import helloMelon from "../../assets/images/helloMelon.png";
+import HMHeader from "../../assets/images/HMHeader.jpg";
 import HMdashboard1 from "../../assets/images/helloMelon_Dashboard.png";
 import HMdashboard2 from "../../assets/images/helloMelon_Dashboard2.png";
 import HMreport1 from "../../assets/images/helloMelon_reports.png";
@@ -12,6 +13,29 @@ const HelloMelon = () => {
   return (
     <>
       <header id='home'>
+        <div class='header'>
+          <img src={HMHeader} alt='image of desk' class='header_img' />
+          <div class='job_title'>Take control of your health</div>
+          <div class='header_body'>
+            <div>
+              <div class='name'>HELLO MELON</div>
+              <div class='links'>
+                <div class='link'>
+                  <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                    LINK
+                  </a>
+                </div>
+                <div class='link'>
+                  <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
+                    CODE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      {/*  <header id='home'>
         <div class='header_container'>
           <div class='header-frame'>
             <div class='header-content'>
@@ -35,7 +59,7 @@ const HelloMelon = () => {
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
       <section class='about'>
         <h2>
           <div>

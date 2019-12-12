@@ -19,30 +19,6 @@ const Header = () => {
         </div>
       </div>
     </header>
-    // <header id='home'>
-    //   <div class='header_container'>
-    //     <div class='header-frame'>
-    //       <div class='header-content'>
-    //         <img src={leila} alt='Icons for Javascript - React - Node' />
-    //         <div class='intro'>
-    //           <div class='name'>LEILA BERROUAYEL</div>
-    //           <div class='job'>WEB/SOFTWARE DEVELOPER</div>
-    //           <div class='desc'>Reliable . Committed . Dependable</div>
-    //           <div class='links'>
-    //             <div class='link'>
-    //               <a href='#proj'>PROJECTS</a>
-    //             </div>
-    //             <div class='link'>
-    //               <a href={resume} target='_blank' rel='noopener noreferrer'>
-    //                 RESUME
-    //               </a>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </header>
   );
 };
 
