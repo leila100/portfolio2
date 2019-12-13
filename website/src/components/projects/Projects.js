@@ -21,18 +21,18 @@ const Projects = () => {
         </div>
       </h2> */}
       <div class='links projs'>
-          <div class='link'>
-            <a href='#helloMelon'>Hello Melon</a>
-          </div>
-          <div class='link'>
-            <a href='#fmn'>Forget Me Not</a>
+        <div class='link'>
+          <a href='#helloMelon'>Hello Melon</a>
         </div>
         <div class='link'>
-            <a href='#mud'>Lambda MUD</a>
+          <a href='#fmn'>Forget Me Not</a>
+        </div>
+        <div class='link'>
+          <a href='#mud'>Lambda MUD</a>
         </div>
       </div>
       <div class='proj-list'>
-        <div id="helloMelon">{"  "}</div>
+        <div id='helloMelon'>{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Hello Melon</h3>
           <div class='description'>
@@ -56,6 +56,15 @@ const Projects = () => {
                 </a>
               </div>
               <div class='link'>
+                <a
+                  href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  VIDEO
+                </a>
+              </div>
+              <div class='link'>
                 <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
@@ -66,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div id="fmn">{"  "}</div>
+        <div id='fmn'>{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Forget Me Not</h3>
           <div class='description'>
@@ -86,7 +95,7 @@ const Projects = () => {
             <img src={FMN_home} alt='Forget Me Not App' />
             <div class='links'>
               <div class='link'>
-                <a href='https://forgetmenot.netlify.com/login' target='_blank' rel='noopener noreferrer'>
+                <a href='https://forgetmenot.netlify.com' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
@@ -101,7 +110,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div id="mud">{"  "}</div>
+        <div id='mud'>{"  "}</div>
         <div class='proj'>
           <h3 class='title'>Lambda MUD</h3>
           <div class='description'>

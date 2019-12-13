@@ -29,6 +29,15 @@ const HelloMelon = () => {
                     CODE
                   </a>
                 </div>
+                <div class='link'>
+                  <a
+                    href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    VIDEO
+                  </a>
+                </div>
               </div>
             </div>
           </div>
