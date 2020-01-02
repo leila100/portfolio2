@@ -13,7 +13,7 @@ const HelloMelon = () => {
     <>
       <header id='home'>
         <div class='header'>
-          <img src={HMHeader} alt='image of food' class='header_img' />
+          <img src={HMHeader} alt='food' class='header_img' />
           <div class='job_title'>Take control of your health</div>
           <div class='header_body'>
             <div>

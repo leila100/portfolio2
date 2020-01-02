@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <header id='home'>
       <div class='header'>
-        <img src={header_image} alt='image of desk' class='header_img' />
+        <img src={header_image} alt='desk' class='header_img' />
         <div class='job_title'>Web/Software Developer</div>
         <div class='header_body'>
-          <img src={leila} class='leila_img' />
+          <img src={leila} alt='Leila Berrouayel' class='leila_img' />
           <div>
             <div class='name'>Leila Berrouayel</div>
             <div class='qualities'>Reliable . Committed . Dependable</div>

@@ -13,11 +13,11 @@ const LambdaMUD = () => {
     <>
       <header id='home'>
         <div class='header'>
-          <img src={mud_header} alt='image of food' class='header_img' />
+          <img src={mud_header} alt='Maze' class='header_img' />
           <div class='job_title'>Find your way!</div>
           <div class='header_body'>
             <div>
-              <div class='name'>Lambda MUD</div>
+              <div class='name'>LAMBDA MUD</div>
               <div class='links'>
                 <div class='link'>
                   <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>

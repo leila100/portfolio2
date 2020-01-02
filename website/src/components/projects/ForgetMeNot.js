@@ -13,7 +13,7 @@ const ForgetMeNot = () => {
     <>
       <header id='home'>
         <div class='header'>
-          <img src={FMN_header} alt='image of forgetMeNot' class='header_img' />
+          <img src={FMN_header} alt='forgetMeNot flower' class='header_img' />
           <div class='job_title'>Never forget a special day!</div>
           <div class='header_body'>
             <div>
