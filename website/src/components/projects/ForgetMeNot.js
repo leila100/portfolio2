@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import FMN_header from "../../assets/images/FMN_header.jpg";
 import fmn_message from "../../assets/images/FMN_message.png";
@@ -12,29 +13,39 @@ const ForgetMeNot = () => {
   return (
     <>
       <header id='home'>
-        <div class='header'>
-          <img src={FMN_header} alt='forgetMeNot flower' class='header_img' />
-          <div class='job_title'>Never forget a special day!</div>
-          <div class='header_body'>
+        <div className='header'>
+          <img src={FMN_header} alt='forgetMeNot flower' className='header_img' />
+          <div className='job_title'>Never forget a special day!</div>
+          <div className='header_body'>
             <div>
-              <div class='name'>FORGET ME NOT</div>
-              <div class='links'>
-                <div class='link'>
+              <div className='name'>FORGET ME NOT</div>
+              <div className='links'>
+                <div className='link'>
                   <a href='https://forgetmenot.netlify.com/' target='_blank' rel='noopener noreferrer'>
                     LINK
                   </a>
                 </div>
-                <div class='link'>
+                <div className='link'>
                   <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
                     CODE
                   </a>
+                </div>
+                <div className='link'>
+                  <Link activeClass='activeProj' to='features' spy={true} smooth={true} offset={-100} duration={500}>
+                    Features
+                  </Link>
+                </div>
+                <div className='link'>
+                  <Link activeClass='activeProj' to='challenges' spy={true} smooth={true} offset={-70} duration={500}>
+                    Challenges
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <section class='about'>
+      <section className='about'>
         <h2>
           <div>
             <span>||</span> React<span>||</span> ReactHooks<span>||</span>
@@ -49,8 +60,8 @@ const ForgetMeNot = () => {
             <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
           </div>
         </h2>
-        <div class='descriptions'>
-          <div class='desc'>
+        <div className='descriptions'>
+          <div className='desc'>
             <h3>Overview</h3>
             <p>
               Forget Me Not is an application that sends thoughtful messages, on your behalf, to people you know on
@@ -58,7 +69,7 @@ const ForgetMeNot = () => {
             </p>
             <p>Added some technology (Redux for example), and refactored the code to create Forget Me Not.</p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Team</h3>
             <p>
               Built initially by a remote team of 5 for about 2 weeks. Was called BETTER FRIENDS REMINDERS (
@@ -71,11 +82,11 @@ const ForgetMeNot = () => {
           </div>
         </div>
       </section>
-      <section class='features'>
+      <section className='features' id='features'>
         <h2>
           <span>||</span>FEATURES<span>||</span>
         </h2>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Schedule an email to be sent on a specific day and time</h3>
           <p>
             Select a day, and time for your email to be sent. Write a thoughtful message text, select a category for
@@ -83,7 +94,7 @@ const ForgetMeNot = () => {
             button. The message will be automatically sent on that day and time and you will have made someone happy on
             their special day.
           </p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={fmn_message} target='_blank' rel='noopener noreferrer'>
               <img src={fmn_message} alt='Forget Me Not message page' />
             </a>
@@ -92,10 +103,10 @@ const ForgetMeNot = () => {
             </a>
           </div>
         </div>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Access all scheduled messages</h3>
           <p>See all your messages. Filter by sent messages, and also by the different categories.</p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={fmn_messages} target='_blank' rel='noopener noreferrer'>
               <img src={fmn_messages} alt='Forget Me Not message page' />
             </a>
@@ -104,13 +115,13 @@ const ForgetMeNot = () => {
             </a>
           </div>
         </div>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Update/Delete a scheduled message</h3>
           <p>
             Selecting an existing (not yet sent) message, you can edit it. You can also delete it by selecting the
             trashcan icon.
           </p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={fmn_message2} target='_blank' rel='noopener noreferrer'>
               <img src={fmn_message2} alt='Forget Me Not message page' />
             </a>
@@ -120,12 +131,12 @@ const ForgetMeNot = () => {
           </div>
         </div>
       </section>
-      <section class='about'>
+      <section className='about' id='challenges'>
         <h2>
           <span>||</span>CHALLENGES<span>||</span>
         </h2>
-        <div class='descriptions'>
-          <div class='desc'>
+        <div className='descriptions'>
+          <div className='desc'>
             <h3>Communication</h3>
             <p>
               Effective communication is the most important part of teamwork and involves consistently updating each
@@ -137,7 +148,7 @@ const ForgetMeNot = () => {
               the many functionalities the application needed to have.
             </p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Division of work</h3>
             <p>
               Being the only back-end developer, my work was well defined from the beginning, this is why I chose to act
@@ -148,7 +159,7 @@ const ForgetMeNot = () => {
               developers, responsible for the user facing part of the application.
             </p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Taking new responsibilities</h3>
             <p>
               Being the only back-end developer meant that I was responsible for all the data formating and

@@ -8,21 +8,21 @@ import resume from "../../../assets/images/Resume - Leila berrouayel.pdf";
 const Header = () => {
   return (
     <header id='home'>
-      <div class='header'>
-        <img src={header_image} alt='desk' class='header_img' />
-        <div class='job_title'>Web/Software Developer</div>
-        <div class='header_body'>
-          <div class='name'>
-            <img src={leila} alt='Leila Berrouayel' class='leila_img' /> <div>Leila Berrouayel</div>
+      <div className='header'>
+        <img src={header_image} alt='desk' className='header_img' />
+        <div className='job_title'>Web/Software Developer</div>
+        <div className='header_body'>
+          <div className='name'>
+            <img src={leila} alt='Leila Berrouayel' className='leila_img' /> <div>Leila Berrouayel</div>
           </div>
-          <div class='qualities'>Reliable . Committed . Dependable</div>
-          <div class='links'>
-            <div class='link'>
+          <div className='qualities'>Reliable . Committed . Dependable</div>
+          <div className='links'>
+            <div className='link'>
               <a href={resume} target='_blank' rel='noopener noreferrer'>
                 RESUME
               </a>
             </div>
-            <div class='link'>
+            <div className='link'>
               <Link activeClass='activeProj' to='proj' spy={true} smooth={true} offset={-70} duration={500}>
                 Projects
               </Link>

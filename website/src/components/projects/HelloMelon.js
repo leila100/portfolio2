@@ -13,23 +13,23 @@ const HelloMelon = () => {
   return (
     <>
       <header id='home'>
-        <div class='header'>
-          <img src={HMHeader} alt='food' class='header_img' />
-          <div class='job_title'>Take control of your health</div>
-          <div class='header_body'>
-            <div class='name'>HELLO MELON</div>
-            <div class='links'>
-              <div class='link'>
+        <div className='header'>
+          <img src={HMHeader} alt='food' className='header_img' />
+          <div className='job_title'>Take control of your health</div>
+          <div className='header_body'>
+            <div className='name'>HELLO MELON</div>
+            <div className='links'>
+              <div className='link'>
                 <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
-              <div class='link'>
+              <div className='link'>
                 <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
               </div>
-              <div class='link'>
+              <div className='link'>
                 <a
                   href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
                   target='_blank'
@@ -38,12 +38,12 @@ const HelloMelon = () => {
                   VIDEO
                 </a>
               </div>
-              <div class='link'>
+              <div className='link'>
                 <Link activeClass='activeProj' to='features' spy={true} smooth={true} offset={-100} duration={500}>
                   Features
                 </Link>
               </div>
-              <div class='link'>
+              <div className='link'>
                 <Link activeClass='activeProj' to='challenges' spy={true} smooth={true} offset={-70} duration={500}>
                   Challenges
                 </Link>
@@ -52,7 +52,7 @@ const HelloMelon = () => {
           </div>
         </div>
       </header>
-      <section class='about'>
+      <section className='about'>
         <h2>
           <div>
             <span>||</span> React<span>||</span> GraphQL<span>||</span>
@@ -64,15 +64,15 @@ const HelloMelon = () => {
             <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
           </div>
         </h2>
-        <div class='descriptions'>
-          <div class='desc'>
+        <div className='descriptions'>
+          <div className='desc'>
             <h3>Overview</h3>
             <p>
               Hello Melon is a nutrition tracking application that provides a visualization of eating patterns and
               nutritional data to empower people to take control of their health.
             </p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Team</h3>
             <p>Built by a remote team of 5, managed and guided by a Team Lead for about 10 weeks.</p>
             <p>
@@ -82,18 +82,18 @@ const HelloMelon = () => {
           </div>
         </div>
       </section>
-      <section class='features' id='features'>
+      <section className='features' id='features'>
         <h2>
           <span>||</span>FEATURES<span>||</span>
         </h2>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Keep track of daily food intake and exercises (workouts)</h3>
           <p>
             Save your food choices using the search of an integrated food database (connected to a food database API) or
             create your own entry. You can even choose foods from popular brands and restaurants. Enter also your daily
             workout.
           </p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={HMdashboard1} target='_blank' rel='noopener noreferrer'>
               <img src={HMdashboard1} alt='Hello Melon Dashboard' />
             </a>
@@ -102,13 +102,13 @@ const HelloMelon = () => {
             </a>
           </div>
         </div>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Access custom reports</h3>
           <p>
             See your progress with our customer reports. Whether your goal is to keep track of your nutrients or just a
             calory count, we have it all for you. You can also download a pdf report to share.
           </p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={HMreport1} target='_blank' rel='noopener noreferrer'>
               <img src={HMreport1} alt='Hello Melon Reports' />
             </a>
@@ -117,13 +117,13 @@ const HelloMelon = () => {
             </a>
           </div>
         </div>
-        <div class='feature'>
+        <div className='feature'>
           <h3>Get a coach to follow you</h3>
           <p>
             Whether you want a friend or your personal trainer to see your progress or keep you accountable, our coach
             feature allows you to communicate your progress easily.
           </p>
-          <div class='imgs'>
+          <div className='imgs'>
             <a href={HMcoach1} target='_blank' rel='noopener noreferrer'>
               <img src={HMcoach1} alt='Hello Melon Coach' />
             </a>
@@ -133,12 +133,12 @@ const HelloMelon = () => {
           </div>
         </div>
       </section>
-      <section class='about' id='challenges'>
+      <section className='about' id='challenges'>
         <h2>
           <span>||</span>CHALLENGES<span>||</span>
         </h2>
-        <div class='descriptions'>
-          <div class='desc'>
+        <div className='descriptions'>
+          <div className='desc'>
             <h3>Communication</h3>
             <p>
               Effective communication is the most important part of teamwork and involves consistently updating each
@@ -149,7 +149,7 @@ const HelloMelon = () => {
               learning new technology.
             </p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Division of work</h3>
             <p>
               Teams that work well together understand the strengths and weaknesses of each team member. Because we have
@@ -158,7 +158,7 @@ const HelloMelon = () => {
             </p>
             <p>Thankfully, all team members were eager to take on the work even if the tasks were challenging.</p>
           </div>
-          <div class='desc'>
+          <div className='desc'>
             <h3>Learning new Technology</h3>
             <p>
               Learning a new technology in a limited time is challenging, but we knew we wanted to use a technology none
