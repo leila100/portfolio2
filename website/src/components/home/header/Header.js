@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import leila from "../../../assets/images/Leila.jpg";
 import header_image from "../../../assets/images/headerImg.jpg";
@@ -22,7 +23,9 @@ const Header = () => {
                 </a>
               </div>
               <div class='link'>
-                <a href='/#proj'>PROJECTS</a>
+                <Link activeClass='activeProj' to='proj' spy={true} smooth={true} offset={-70} duration={500}>
+                  Projects
+                </Link>
               </div>
             </div>
           </div>

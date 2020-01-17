@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import Hello from "../../assets/images/helloMelon_home.png";
 import FMN_home from "../../assets/images/FMN_home.png";
@@ -11,24 +12,21 @@ const Projects = () => {
       <h2>
         <span>||</span>PROJECTS<span>||</span>
       </h2>
-      {/* <h2>
-        <div>
-          <span>||</span><a href="#helloMelon">Hello Melon</a><span>||</span>
-        </div>
-        <div><a href="#fmn">Forget Me Not</a></div>
-        <div>
-          <span>||</span><a href="#mud">Lambda MUD</a><span>||</span>
-        </div>
-      </h2> */}
       <div class='links projs'>
         <div class='link'>
-          <a href='#helloMelon'>Hello Melon</a>
+          <Link activeClass='activeProj' to='helloMelon' spy={true} smooth={true} offset={-70} duration={500}>
+            Hello Melon
+          </Link>
         </div>
         <div class='link'>
-          <a href='#fmn'>Forget Me Not</a>
+          <Link activeClass='activeProj' to='fmn' spy={true} smooth={true} offset={-70} duration={500}>
+            Forget Me Not
+          </Link>
         </div>
         <div class='link'>
-          <a href='#mud'>Lambda MUD</a>
+          <Link activeClass='activeProj' to='mud' spy={true} smooth={true} offset={330} duration={500}>
+            Lambda MUD
+          </Link>
         </div>
       </div>
       <div class='proj-list'>
