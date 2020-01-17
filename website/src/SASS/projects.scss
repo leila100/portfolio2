@@ -1,187 +1,185 @@
 section {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
 #proj,
 #helloMelon,
 #fmn,
 #mud {
-    margin-bottom: 35px;
-    height: 1px;
+  margin-bottom: 35px;
+  height: 1px;
 }
 
 .projects {
-    @media (max-width: 900px) {
-        max-width: 660px;
-        margin: auto;
-    }
+  @media (max-width: 900px) {
+    max-width: 660px;
+    margin: auto;
+  }
+  padding-bottom: 200px;
 
-    .projs {
-        justify-content: center;
-        margin-top: 10px;
+  .projs {
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+
+    .link {
+      margin: 10px;
+    }
+  }
+
+  .proj-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    max-width: 1000px;
+
+    .proj {
+      margin: 43px 10px;
+
+      h3 {
+        font-size: 2.4rem;
+        color: $bg-dark;
+        font-family: "Lora", serif;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      h4 {
+        font-size: 1.7rem;
+        color: $bg-dark;
+        font-family: "Lora", serif;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      .skills {
+        font-size: 1.7rem;
+        margin: 10px 0;
+
+        span {
+          color: $text;
+          margin: 0 5px;
+        }
+      }
+
+      p {
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-family: "Lora", serif;
+      }
+
+      img {
         width: 100%;
+        height: 300px;
+        margin: 20px 0;
+        border: 1px solid $bg-dark;
+        box-shadow: 0px 10px $bg-dark;
 
-        .link {
-            margin: 10px;
+        @media (max-width: 500px) {
+          height: 200px;
         }
+      }
     }
-
-    .proj-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px auto;
-        max-width: 1000px;
-
-        .proj {
-            margin: 43px 10px;
-
-            h3 {
-                font-size: 2.4rem;
-                color: $bg-dark;
-                font-family: 'Lora', serif;
-                margin-bottom: 10px;
-                font-weight: bold;
-            }
-
-            h4 {
-                font-size: 1.7rem;
-                color: $bg-dark;
-                font-family: 'Lora', serif;
-                margin-bottom: 10px;
-                font-weight: bold;
-            }
-
-            .skills {
-                font-size: 1.7rem;
-                margin: 10px 0;
-
-                span {
-                    color: $text;
-                    margin: 0 5px;
-                }
-            }
-
-            p {
-                font-size: 1.7rem;
-                line-height: 1.5;
-                font-family: 'Lora', serif;
-            }
-
-            img {
-                width: 100%;
-                height: 300px;
-                margin: 20px 0;
-                border: 1px solid $bg-dark;
-                box-shadow: 0px 10px $bg-dark;
-
-                @media (max-width: 500px) {
-                    height: 200px;
-                }
-            }
-        }
-    }
+  }
 }
 
 #logo {
-    height: 65px;
-    width: 200px;
-    margin-right: 10px;
+  height: 65px;
+  width: 200px;
+  margin-right: 10px;
 }
 
 #appIntro {
-    width: 430px;
+  width: 430px;
 
-    @media (max-width: 900px) {
-        width: auto;
-    }
+  @media (max-width: 900px) {
+    width: auto;
+  }
 
-    .link {
-        margin-top: 10px;
-    }
+  .link {
+    margin-top: 10px;
+  }
 }
 
 .features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 50px auto;
-    max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 1000px;
+
+  @media (max-width: 900px) {
+    max-width: 660px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
+    color: $bg-dark;
+    font-family: "Lora", serif;
+
+    span {
+      color: $text;
+      margin: 0 5px;
+    }
 
     @media (max-width: 900px) {
-        max-width: 660px;
+      font-size: 2.5rem;
     }
 
-    h2 {
-        font-size: 3rem;
-        text-align: center;
-        line-height: 1.5;
-        color: $bg-dark;
-        font-family: 'Lora', serif;
+    @media (max-width: 700px) {
+      font-size: 2.2rem;
+    }
+  }
 
-        span {
-            color: $text;
-            margin: 0 5px;
-        }
+  .feature {
+    margin: 30px 10px;
+    width: 100%;
+
+    h3 {
+      font-size: 2.4rem;
+      color: $bg-dark;
+      font-family: "Lora", serif;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.7rem;
+      line-height: 1.5;
+      font-family: "Lora", serif;
+    }
+
+    .imgs {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      margin-top: 20px;
+
+      a {
+        width: 50%;
 
         @media (max-width: 900px) {
-            font-size: 2.5rem;
+          width: 100%;
         }
+      }
 
-        @media (max-width: 700px) {
-            font-size: 2.2rem;
+      a img {
+        width: 95%;
+        height: 225px;
+        border: 1px solid $bg-dark;
+        box-shadow: 0px 10px $bg-dark;
+
+        @media (max-width: 900px) {
+          width: 100%;
+          margin: 10px auto;
         }
+      }
+
+      @media (max-width: 900px) {
+        flex-direction: column;
+      }
     }
-
-    .feature {
-        margin: 30px 10px;
-        width: 100%;
-
-        h3 {
-            font-size: 2.4rem;
-            color: $bg-dark;
-            font-family: 'Lora', serif;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        p {
-            font-size: 1.7rem;
-            line-height: 1.5;
-            font-family: 'Lora', serif;
-        }
-
-        .imgs {
-            display: flex;
-            justify-content: space-between;
-            align-content: center;
-            margin-top: 20px;
-
-            a {
-                width: 50%;
-
-                @media (max-width: 900px) {
-                    width: 100%;
-                }
-            }
-
-            a img {
-                width: 95%;
-                height: 225px;
-                border: 1px solid $bg-dark;
-                box-shadow: 0px 10px $bg-dark;
-
-                @media (max-width: 900px) {
-                    width: 100%;
-                    margin: 10px auto;
-                }
-            }
-
-            @media (max-width: 900px) {
-                flex-direction: column;
-            }
-        }
-    }
-
-
-
+  }
 }

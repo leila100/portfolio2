@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import HMHeader from "../../assets/images/HMHeader.jpg";
 import HMdashboard1 from "../../assets/images/helloMelon_Dashboard.png";
@@ -16,28 +17,36 @@ const HelloMelon = () => {
           <img src={HMHeader} alt='food' class='header_img' />
           <div class='job_title'>Take control of your health</div>
           <div class='header_body'>
-            <div>
-              <div class='name'>HELLO MELON</div>
-              <div class='links'>
-                <div class='link'>
-                  <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
-                    LINK
-                  </a>
-                </div>
-                <div class='link'>
-                  <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
-                    CODE
-                  </a>
-                </div>
-                <div class='link'>
-                  <a
-                    href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    VIDEO
-                  </a>
-                </div>
+            <div class='name'>HELLO MELON</div>
+            <div class='links'>
+              <div class='link'>
+                <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                  LINK
+                </a>
+              </div>
+              <div class='link'>
+                <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
+                  CODE
+                </a>
+              </div>
+              <div class='link'>
+                <a
+                  href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  VIDEO
+                </a>
+              </div>
+              <div class='link'>
+                <Link activeClass='activeProj' to='features' spy={true} smooth={true} offset={-100} duration={500}>
+                  Features
+                </Link>
+              </div>
+              <div class='link'>
+                <Link activeClass='activeProj' to='challenges' spy={true} smooth={true} offset={-70} duration={500}>
+                  Challenges
+                </Link>
               </div>
             </div>
           </div>
@@ -73,7 +82,7 @@ const HelloMelon = () => {
           </div>
         </div>
       </section>
-      <section class='features'>
+      <section class='features' id='features'>
         <h2>
           <span>||</span>FEATURES<span>||</span>
         </h2>
@@ -124,7 +133,7 @@ const HelloMelon = () => {
           </div>
         </div>
       </section>
-      <section class='about'>
+      <section class='about' id='challenges'>
         <h2>
           <span>||</span>CHALLENGES<span>||</span>
         </h2>

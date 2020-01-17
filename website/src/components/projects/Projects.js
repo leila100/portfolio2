@@ -24,7 +24,7 @@ const Projects = () => {
           </Link>
         </div>
         <div class='link'>
-          <Link activeClass='activeProj' to='mud' spy={true} smooth={true} offset={330} duration={500}>
+          <Link activeClass='activeProj' to='mud' spy={true} smooth={true} offset={500} duration={500}>
             Lambda MUD
           </Link>
         </div>
