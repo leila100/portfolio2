@@ -73,3 +73,20 @@ span {
 .activeProj {
   color: $bg-dark;
 }
+
+.top {
+  background-color: transparent;
+  border: 3px solid #975030;
+  border-radius: 55px;
+  font-size: 1.8rem;
+  //   padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  color: black;
+  display: inline;
+  margin: 0 5px;
+  outline: none;
+  width: 100px;
+  &:hover {
+    border: 3px solid $text;
+  }
+}

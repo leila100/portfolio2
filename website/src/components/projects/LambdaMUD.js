@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import mud_header from "../../assets/images/MUD_header.jpg";
 import mud from "../../assets/images/maze_avatar.png";
@@ -8,6 +8,10 @@ import directions from "../../assets/images/directions.png";
 import avatars from "../../assets/images/avatars.png";
 import chat1 from "../../assets/images/chat1.png";
 import chat2 from "../../assets/images/chat2.png";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const LambdaMUD = () => {
   return (
@@ -78,9 +82,14 @@ const LambdaMUD = () => {
         </div>
       </section>
       <section className='features' id='features'>
-        <h2>
-          <span>||</span>FEATURES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>FEATURES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>
+        </div>
         <div className='feature'>
           <h3>Maze</h3>
           <p>
@@ -122,9 +131,14 @@ const LambdaMUD = () => {
         </div>
       </section>
       <section className='about' id='challenges'>
-        <h2>
-          <span>||</span>CHALLENGES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>CHALLENGES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>{" "}
+        </div>
         <div className='descriptions'>
           <div className='desc'>
             <h3>Communication</h3>

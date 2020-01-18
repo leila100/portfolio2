@@ -101,6 +101,35 @@ section {
   }
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.features h2,
+#challenges h2 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.5;
+  color: $bg-dark;
+  font-family: "Lora", serif;
+
+  span {
+    color: $text;
+    margin: 0 5px;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 2.2rem;
+  }
+}
+
 .features {
   display: flex;
   justify-content: center;
@@ -110,27 +139,6 @@ section {
 
   @media (max-width: 900px) {
     max-width: 660px;
-  }
-
-  h2 {
-    font-size: 3rem;
-    text-align: center;
-    line-height: 1.5;
-    color: $bg-dark;
-    font-family: "Lora", serif;
-
-    span {
-      color: $text;
-      margin: 0 5px;
-    }
-
-    @media (max-width: 900px) {
-      font-size: 2.5rem;
-    }
-
-    @media (max-width: 700px) {
-      font-size: 2.2rem;
-    }
   }
 
   .feature {
