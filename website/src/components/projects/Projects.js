@@ -1,9 +1,13 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import Hello from "../../assets/images/helloMelon_home.png";
 import FMN_home from "../../assets/images/FMN_home.png";
 import mud from "../../assets/images/lambdamud.png";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const Projects = () => {
   return (
@@ -32,7 +36,12 @@ const Projects = () => {
       <div className='proj-list'>
         <div id='helloMelon'>{"  "}</div>
         <div className='proj'>
-          <h3 className='title'>Hello Melon</h3>
+          <div className='title'>
+            <h2>Hello Melon</h2>
+            <button className='top' onClick={scrollToTop}>
+              Top
+            </button>
+          </div>
           <div className='description'>
             <p>
               A nutrition tracking application that provides a visualization of eating patterns and nutritional data to
@@ -75,7 +84,12 @@ const Projects = () => {
         </div>
         <div id='fmn'>{"  "}</div>
         <div className='proj'>
-          <h3 className='title'>Forget Me Not</h3>
+          <div className='title'>
+            <h2>Forget Me Not</h2>
+            <button className='top' onClick={scrollToTop}>
+              Top
+            </button>
+          </div>
           <div className='description'>
             <p>
               Forget ME Not is an application that sends thoughtful messages, on your behalf, to people you know on
@@ -110,7 +124,12 @@ const Projects = () => {
         </div>
         <div id='mud'>{"  "}</div>
         <div className='proj'>
-          <h3 className='title'>Lambda MUD</h3>
+          <div className='title'>
+            <h2>Lambda MUD</h2>
+            <button className='top' onClick={scrollToTop}>
+              Top
+            </button>
+          </div>
           <div className='description'>
             <p>
               A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar, and
