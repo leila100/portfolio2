@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import HMHeader from "../../assets/images/HMHeader.jpg";
 import HMdashboard1 from "../../assets/images/helloMelon_Dashboard.png";
@@ -8,6 +8,10 @@ import HMreport1 from "../../assets/images/helloMelon_reports.png";
 import HMreport2 from "../../assets/images/helloMelon_reports2.png";
 import HMcoach1 from "../../assets/images/helloMelon_coach.png";
 import HMcoach2 from "../../assets/images/helloMelon_coach2.png";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const HelloMelon = () => {
   return (
@@ -83,9 +87,14 @@ const HelloMelon = () => {
         </div>
       </section>
       <section className='features' id='features'>
-        <h2>
-          <span>||</span>FEATURES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>FEATURES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>
+        </div>
         <div className='feature'>
           <h3>Keep track of daily food intake and exercises (workouts)</h3>
           <p>
@@ -134,9 +143,14 @@ const HelloMelon = () => {
         </div>
       </section>
       <section className='about' id='challenges'>
-        <h2>
-          <span>||</span>CHALLENGES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>CHALLENGES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>{" "}
+        </div>
         <div className='descriptions'>
           <div className='desc'>
             <h3>Communication</h3>
