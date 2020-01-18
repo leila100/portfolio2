@@ -196,7 +196,13 @@ const HelloMelon = () => {
           <h2 data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span>CHALLENGES<span>||</span>
           </h2>
-          <button className='top' onClick={scrollToTop}>
+          <button
+            className='top'
+            onClick={scrollToTop}
+            data-aos='zoom-in'
+            data-aos-easing='ease-out-cubic'
+            data-aos-duration='1500'
+          >
             Top
           </button>{" "}
         </div>

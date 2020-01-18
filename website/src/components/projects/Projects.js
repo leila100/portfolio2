@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section className='projects'>
       <div id='proj'>{"  "}</div>
-      <h2>
+      <h2 data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
         <span>||</span>PROJECTS<span>||</span>
       </h2>
       <div className='links projs'>
