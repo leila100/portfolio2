@@ -17,17 +17,17 @@ const Projects = () => {
         <span>||</span>PROJECTS<span>||</span>
       </h2>
       <div className='links projs'>
-        <div className='link'>
+        <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
           <Link activeClass='activeProj' to='helloMelon' spy={true} smooth={true} offset={-70} duration={500}>
             Hello Melon
           </Link>
         </div>
-        <div className='link'>
+        <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
           <Link activeClass='activeProj' to='fmn' spy={true} smooth={true} offset={-70} duration={500}>
             Forget Me Not
           </Link>
         </div>
-        <div className='link'>
+        <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
           <Link activeClass='activeProj' to='mud' spy={true} smooth={true} offset={500} duration={500}>
             Lambda MUD
           </Link>
@@ -38,7 +38,13 @@ const Projects = () => {
         <div className='proj'>
           <div className='title'>
             <h2>Hello Melon</h2>
-            <button className='top' onClick={scrollToTop}>
+            <button
+              className='top'
+              onClick={scrollToTop}
+              data-aos='zoom-in'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            >
               Top
             </button>
           </div>
@@ -55,14 +61,20 @@ const Projects = () => {
                 <span>||</span>React<span>||</span>GraphQL<span>||</span>Sqlite3<span>||</span>Strip<span>||</span>
               </div>
             </div>
-            <img src={Hello} alt='Hello Melon App' />
+            <img
+              src={Hello}
+              alt='Hello Melon App'
+              data-aos='flip-right'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            />
             <div className='links'>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a
                   href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
                   target='_blank'
@@ -71,12 +83,12 @@ const Projects = () => {
                   VIDEO
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='/hello-melon'>DETAILS</a>
               </div>
             </div>
@@ -86,7 +98,13 @@ const Projects = () => {
         <div className='proj'>
           <div className='title'>
             <h2>Forget Me Not</h2>
-            <button className='top' onClick={scrollToTop}>
+            <button
+              className='top'
+              onClick={scrollToTop}
+              data-aos='zoom-in'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            >
               Top
             </button>
           </div>
@@ -104,19 +122,25 @@ const Projects = () => {
                 <span>||</span>
               </div>
             </div>
-            <img src={FMN_home} alt='Forget Me Not App' />
+            <img
+              src={FMN_home}
+              alt='Forget Me Not App'
+              data-aos='flip-right'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            />
             <div className='links'>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://forgetmenot.netlify.com' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='/fmn'>DETAILS</a>
               </div>
             </div>
@@ -126,7 +150,13 @@ const Projects = () => {
         <div className='proj'>
           <div className='title'>
             <h2>Lambda MUD</h2>
-            <button className='top' onClick={scrollToTop}>
+            <button
+              className='top'
+              onClick={scrollToTop}
+              data-aos='zoom-in'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            >
               Top
             </button>
           </div>
@@ -143,19 +173,25 @@ const Projects = () => {
                 <span>||</span>React<span>||</span>Django<span>||</span>Sqlite3<span>||</span>Pusher<span>||</span>
               </div>
             </div>
-            <img src={mud} alt='Lambda MUD App' />
+            <img
+              src={mud}
+              alt='Lambda MUD App'
+              data-aos='flip-right'
+              data-aos-easing='ease-out-cubic'
+              data-aos-duration='1500'
+            />
             <div className='links'>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='/mud'>DETAILS</a>
               </div>
             </div>

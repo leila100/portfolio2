@@ -15,6 +15,7 @@
     color: black;
     display: inline;
     margin: 0 5%;
+    transition: all 0.1s ease;
 
     @media (max-width: 900px) {
       margin: 0 4%;
@@ -31,6 +32,7 @@
 
   .link:hover {
     border: 3px solid $text;
+    background-color: $bg-dark;
   }
 
   @media (max-width: 500px) {
