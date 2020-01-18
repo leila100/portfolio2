@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import FMN_header from "../../assets/images/FMN_header.jpg";
 import fmn_message from "../../assets/images/FMN_message.png";
@@ -8,6 +8,10 @@ import fmn_messages from "../../assets/images/FMN_messages.png";
 import fmn_messages1 from "../../assets/images/FMN_messages1.png";
 import fmn_message2 from "../../assets/images/FMN_message2.png";
 import fmn_message3 from "../../assets/images/FMN_message3.png";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const ForgetMeNot = () => {
   return (
@@ -83,9 +87,14 @@ const ForgetMeNot = () => {
         </div>
       </section>
       <section className='features' id='features'>
-        <h2>
-          <span>||</span>FEATURES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>FEATURES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>
+        </div>
         <div className='feature'>
           <h3>Schedule an email to be sent on a specific day and time</h3>
           <p>
@@ -132,9 +141,14 @@ const ForgetMeNot = () => {
         </div>
       </section>
       <section className='about' id='challenges'>
-        <h2>
-          <span>||</span>CHALLENGES<span>||</span>
-        </h2>
+        <div className='title'>
+          <h2>
+            <span>||</span>CHALLENGES<span>||</span>
+          </h2>
+          <button className='top' onClick={scrollToTop}>
+            Top
+          </button>{" "}
+        </div>
         <div className='descriptions'>
           <div className='desc'>
             <h3>Communication</h3>
