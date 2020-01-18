@@ -1,86 +1,86 @@
 .fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: $highlight;
+  border-bottom: 1px solid $bg-dark;
+
+  .name {
+    margin-left: 4%;
+    font-size: 2.8rem;
+    color: $text;
+    font-family: "Lora", serif;
+
+    @media (max-width: 900px) {
+      font-size: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+
+    a:hover {
+      color: $bg-dark;
+    }
+  }
+
+  .links {
+    display: flex;
+    font-size: 2.2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    color: $text;
+
+    .item a:hover {
+      color: $bg-dark;
+    }
+
+    @media (max-width: 1300px) {
+      width: 50%;
+    }
+
+    @media (max-width: 900px) {
+      width: 60%;
+    }
+
+    @media (max-width: 600px) {
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  .icons {
+    background-color: $bg-dark;
+    border-radius: 55px;
+    font-size: 2.2rem;
+    padding: 14px 30px 12px 30px;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: $highlight;
-    border-bottom: 1px solid $bg-dark;
+    width: 50%;
+    transition: background-color 5s;
+    color: $highlight;
 
-    .name {
-        margin-left: 4%;
-        font-size: 2.8rem;
-        color: $text;
-        font-family: 'Lora', serif;
-
-        @media (max-width: 900px) {
-            font-size: 2rem;
-        }
-
-        @media (max-width: 600px) {
-            display: none;
-        }
-
-        a:hover {
-            color: $bg-dark;
-        }
+    @media (max-width: 1300px) {
+      width: 40%;
     }
 
-    .links {
-        display: flex;
-        font-size: 2.2rem;
-        justify-content: space-between;
-        align-items: center;
-        width: 35%;
-        color: $text;
-
-        .item a:hover {
-            color: $bg-dark;
-        }
-
-        @media (max-width: 1300px) {
-            width: 50%;
-        }
-
-        @media (max-width: 900px) {
-            width: 60%;
-        }
-
-        @media (max-width: 600px) {
-            width: 90%;
-            margin: auto;
-        }
+    @media (max-width: 600px) {
+      width: 50%;
     }
 
-    .icons {
-        background-color: $bg-dark;
-        border-radius: 55px;
-        font-size: 2.2rem;
-        padding: 14px 30px 12px 30px;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 50%;
-        transition: background-color 5s;
-        color: $highlight;
-
-        @media (max-width: 1300px) {
-            width: 40%;
-        }
-
-        @media (max-width: 600px) {
-            width: 50%;
-        }
-
-        a:hover {
-            color: $text;
-        }
+    a:hover {
+      color: $text;
     }
+  }
 }
