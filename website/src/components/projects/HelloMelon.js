@@ -19,21 +19,28 @@ const HelloMelon = () => {
       <header id='home'>
         <div className='header'>
           <img src={HMHeader} alt='food' className='header_img' />
-          <div className='job_title'>Take control of your health</div>
-          <div className='header_body'>
+          <div className='job_title' data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
+            Take control of your health
+          </div>
+          <div
+            className='header_body'
+            data-aos='fade-zoom-in'
+            data-aos-easing='ease-out-cubic'
+            data-aos-duration='3000'
+          >
             <div className='name'>HELLO MELON</div>
             <div className='links'>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
                   LINK
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
                   CODE
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <a
                   href='https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be'
                   target='_blank'
@@ -42,12 +49,12 @@ const HelloMelon = () => {
                   VIDEO
                 </a>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <Link activeClass='activeProj' to='features' spy={true} smooth={true} offset={-100} duration={500}>
                   Features
                 </Link>
               </div>
-              <div className='link'>
+              <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                 <Link activeClass='activeProj' to='challenges' spy={true} smooth={true} offset={-70} duration={500}>
                   Challenges
                 </Link>
@@ -58,25 +65,25 @@ const HelloMelon = () => {
       </header>
       <section className='about'>
         <h2>
-          <div>
+          <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span> React<span>||</span> GraphQL<span>||</span>
           </div>
-          <div>
+          <div data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             sqlite3<span>||</span> Strip<span>||</span> chart.js<span>||</span> FullCalendar
           </div>
-          <div>
+          <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
           </div>
         </h2>
         <div className='descriptions'>
-          <div className='desc'>
+          <div className='desc' data-aos='fade-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Overview</h3>
             <p>
               Hello Melon is a nutrition tracking application that provides a visualization of eating patterns and
               nutritional data to empower people to take control of their health.
             </p>
           </div>
-          <div className='desc'>
+          <div className='desc' data-aos='fade-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Team</h3>
             <p>Built by a remote team of 5, managed and guided by a Team Lead for about 10 weeks.</p>
             <p>
@@ -88,10 +95,16 @@ const HelloMelon = () => {
       </section>
       <section className='features' id='features'>
         <div className='title'>
-          <h2>
+          <h2 data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span>FEATURES<span>||</span>
           </h2>
-          <button className='top' onClick={scrollToTop}>
+          <button
+            className='top'
+            onClick={scrollToTop}
+            data-aos='zoom-in'
+            data-aos-easing='ease-out-cubic'
+            data-aos-duration='1500'
+          >
             Top
           </button>
         </div>
@@ -104,10 +117,22 @@ const HelloMelon = () => {
           </p>
           <div className='imgs'>
             <a href={HMdashboard1} target='_blank' rel='noopener noreferrer'>
-              <img src={HMdashboard1} alt='Hello Melon Dashboard' />
+              <img
+                src={HMdashboard1}
+                alt='Hello Melon Dashboard'
+                data-aos='flip-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
             <a href={HMdashboard2} target='_blank' rel='noopener noreferrer'>
-              <img src={HMdashboard2} alt='Hello Melon Dashboard' />
+              <img
+                src={HMdashboard2}
+                alt='Hello Melon Dashboard'
+                data-aos='flip-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
           </div>
         </div>
@@ -119,10 +144,22 @@ const HelloMelon = () => {
           </p>
           <div className='imgs'>
             <a href={HMreport1} target='_blank' rel='noopener noreferrer'>
-              <img src={HMreport1} alt='Hello Melon Reports' />
+              <img
+                src={HMreport1}
+                alt='Hello Melon Reports'
+                data-aos='flip-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
             <a href={HMreport2} target='_blank' rel='noopener noreferrer'>
-              <img src={HMreport2} alt='Hello Melon Reports' />
+              <img
+                src={HMreport2}
+                alt='Hello Melon Reports'
+                data-aos='flip-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
           </div>
         </div>
@@ -134,17 +171,29 @@ const HelloMelon = () => {
           </p>
           <div className='imgs'>
             <a href={HMcoach1} target='_blank' rel='noopener noreferrer'>
-              <img src={HMcoach1} alt='Hello Melon Coach' />
+              <img
+                src={HMcoach1}
+                alt='Hello Melon Coach'
+                data-aos='flip-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
             <a href={HMcoach2} target='_blank' rel='noopener noreferrer'>
-              <img src={HMcoach2} alt='Hello Melon Coach' />
+              <img
+                src={HMcoach2}
+                alt='Hello Melon Coach'
+                data-aos='flip-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              />
             </a>
           </div>
         </div>
       </section>
       <section className='about' id='challenges'>
         <div className='title'>
-          <h2>
+          <h2 data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span>CHALLENGES<span>||</span>
           </h2>
           <button className='top' onClick={scrollToTop}>
@@ -152,7 +201,7 @@ const HelloMelon = () => {
           </button>{" "}
         </div>
         <div className='descriptions'>
-          <div className='desc'>
+          <div className='desc' data-aos='fade-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Communication</h3>
             <p>
               Effective communication is the most important part of teamwork and involves consistently updating each
@@ -163,7 +212,7 @@ const HelloMelon = () => {
               learning new technology.
             </p>
           </div>
-          <div className='desc'>
+          <div className='desc' data-aos='fade-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Division of work</h3>
             <p>
               Teams that work well together understand the strengths and weaknesses of each team member. Because we have
@@ -172,7 +221,7 @@ const HelloMelon = () => {
             </p>
             <p>Thankfully, all team members were eager to take on the work even if the tasks were challenging.</p>
           </div>
-          <div className='desc'>
+          <div className='desc' data-aos='fade-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Learning new Technology</h3>
             <p>
               Learning a new technology in a limited time is challenging, but we knew we wanted to use a technology none
