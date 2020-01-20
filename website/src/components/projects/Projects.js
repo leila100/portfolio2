@@ -89,7 +89,9 @@ const Projects = () => {
                 </a>
               </div>
               <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-                <a href='/hello-melon'>DETAILS</a>
+                <a href='/hello-melon' aria-label='hm'>
+                  DETAILS
+                </a>
               </div>
             </div>
           </div>
@@ -141,7 +143,9 @@ const Projects = () => {
                 </a>
               </div>
               <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-                <a href='/fmn'>DETAILS</a>
+                <a href='/fmn' aria-label='fmn'>
+                  DETAILS
+                </a>
               </div>
             </div>
           </div>
@@ -192,7 +196,9 @@ const Projects = () => {
                 </a>
               </div>
               <div className='link' data-aos='zoom-in' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-                <a href='/mud'>DETAILS</a>
+                <a href='/mud' aria-label='mud'>
+                  DETAILS
+                </a>
               </div>
             </div>
           </div>

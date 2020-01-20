@@ -16,7 +16,6 @@ function renderWithRouter(ui, { route = "/", history = createMemoryHistory({ ini
 describe("App", () => {
   it("full app rendering/navigating", () => {
     const { container } = renderWithRouter(<App />);
-    // normally I'd use a data-testid, but just wanted to show this is also possible
     expect(container.innerHTML).toMatch("Leila Berrouayel");
   });
 
