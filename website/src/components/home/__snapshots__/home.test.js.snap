@@ -1,0 +1,2869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home About matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="about"
+      >
+        <h2>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Web Developer
+            <span>
+              ||
+            </span>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            React, Node, JavaScript, Python, CSS
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Agile Enthusiast
+            <span>
+              ||
+            </span>
+          </div>
+        </h2>
+        <div
+          class="descriptions"
+        >
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Web Developer
+            </h3>
+            <p>
+              Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Skills
+            </h3>
+            <p>
+              Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Agile Methodology
+            </h3>
+            <p>
+              Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="about"
+    >
+      <h2>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Web Developer
+          <span>
+            ||
+          </span>
+        </div>
+        <div
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          React, Node, JavaScript, Python, CSS
+        </div>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Agile Enthusiast
+          <span>
+            ||
+          </span>
+        </div>
+      </h2>
+      <div
+        class="descriptions"
+      >
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Web Developer
+          </h3>
+          <p>
+            Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Skills
+          </h3>
+          <p>
+            Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Agile Methodology
+          </h3>
+          <p>
+            Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home Header matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        id="home"
+      >
+        <div
+          class="header"
+        >
+          <img
+            alt="desk"
+            class="header_img"
+            src="headerImg.jpg"
+          />
+          <div
+            class="job_title"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            Web/Software Developer
+          </div>
+          <div
+            class="header_body"
+            data-aos="fade-zoom-in"
+            data-aos-duration="3000"
+            data-aos-easing="ease-out-cubic"
+          >
+            <div
+              class="name"
+            >
+              <img
+                alt="Leila Berrouayel"
+                class="leila_img"
+                src="Leila.jpg"
+              />
+               
+              <div>
+                Leila Berrouayel
+              </div>
+            </div>
+            <div
+              class="qualities"
+            >
+              Reliable . Committed . Dependable
+            </div>
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="Resume - Leila berrouayel.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  RESUME
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a>
+                  Projects
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      id="home"
+    >
+      <div
+        class="header"
+      >
+        <img
+          alt="desk"
+          class="header_img"
+          src="headerImg.jpg"
+        />
+        <div
+          class="job_title"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          Web/Software Developer
+        </div>
+        <div
+          class="header_body"
+          data-aos="fade-zoom-in"
+          data-aos-duration="3000"
+          data-aos-easing="ease-out-cubic"
+        >
+          <div
+            class="name"
+          >
+            <img
+              alt="Leila Berrouayel"
+              class="leila_img"
+              src="Leila.jpg"
+            />
+             
+            <div>
+              Leila Berrouayel
+            </div>
+          </div>
+          <div
+            class="qualities"
+          >
+            Reliable . Committed . Dependable
+          </div>
+          <div
+            class="links"
+          >
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a
+                href="Resume - Leila berrouayel.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                RESUME
+              </a>
+            </div>
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a>
+                Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home Home matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        id="home"
+      >
+        <div
+          class="header"
+        >
+          <img
+            alt="desk"
+            class="header_img"
+            src="headerImg.jpg"
+          />
+          <div
+            class="job_title"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            Web/Software Developer
+          </div>
+          <div
+            class="header_body"
+            data-aos="fade-zoom-in"
+            data-aos-duration="3000"
+            data-aos-easing="ease-out-cubic"
+          >
+            <div
+              class="name"
+            >
+              <img
+                alt="Leila Berrouayel"
+                class="leila_img"
+                src="Leila.jpg"
+              />
+               
+              <div>
+                Leila Berrouayel
+              </div>
+            </div>
+            <div
+              class="qualities"
+            >
+              Reliable . Committed . Dependable
+            </div>
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="Resume - Leila berrouayel.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  RESUME
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a>
+                  Projects
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="about"
+      >
+        <h2>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Web Developer
+            <span>
+              ||
+            </span>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            React, Node, JavaScript, Python, CSS
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Agile Enthusiast
+            <span>
+              ||
+            </span>
+          </div>
+        </h2>
+        <div
+          class="descriptions"
+        >
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Web Developer
+            </h3>
+            <p>
+              Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Skills
+            </h3>
+            <p>
+              Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Agile Methodology
+            </h3>
+            <p>
+              Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="projects"
+      >
+        <div
+          id="proj"
+        >
+            
+        </div>
+        <h2
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          PROJECTS
+          <span>
+            ||
+          </span>
+        </h2>
+        <div
+          class="links projs"
+        >
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Hello Melon
+            </a>
+          </div>
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Forget Me Not
+            </a>
+          </div>
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Lambda MUD
+            </a>
+          </div>
+        </div>
+        <div
+          class="proj-list"
+        >
+          <div
+            id="helloMelon"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Hello Melon
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                A nutrition tracking application that provides a visualization of eating patterns and nutritional data to empower people to take control of their health.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  GraphQL
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Strip
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Hello Melon App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="helloMelon_home.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://hello-melon-lambda.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    VIDEO
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/labspt3-nutrition-tracker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/hello-melon"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="fmn"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Forget Me Not
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                Forget ME Not is an application that sends thoughtful messages, on your behalf, to people you know on their special day.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  Redux
+                  <span>
+                    ||
+                  </span>
+                  Node
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Sendgrid
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Forget Me Not App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="FMN_home.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://forgetmenot.netlify.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/leila100/forgetMeNot"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/fmn"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="mud"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Lambda MUD
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar, and then find their way to the door. Players can also interact with each other by using a chatroom.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  Django
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Pusher
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Lambda MUD App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="lambdamud.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://lambda-mud7.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/LambdaMUD"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/mud"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      id="home"
+    >
+      <div
+        class="header"
+      >
+        <img
+          alt="desk"
+          class="header_img"
+          src="headerImg.jpg"
+        />
+        <div
+          class="job_title"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          Web/Software Developer
+        </div>
+        <div
+          class="header_body"
+          data-aos="fade-zoom-in"
+          data-aos-duration="3000"
+          data-aos-easing="ease-out-cubic"
+        >
+          <div
+            class="name"
+          >
+            <img
+              alt="Leila Berrouayel"
+              class="leila_img"
+              src="Leila.jpg"
+            />
+             
+            <div>
+              Leila Berrouayel
+            </div>
+          </div>
+          <div
+            class="qualities"
+          >
+            Reliable . Committed . Dependable
+          </div>
+          <div
+            class="links"
+          >
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a
+                href="Resume - Leila berrouayel.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                RESUME
+              </a>
+            </div>
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a>
+                Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="about"
+    >
+      <h2>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Web Developer
+          <span>
+            ||
+          </span>
+        </div>
+        <div
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          React, Node, JavaScript, Python, CSS
+        </div>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Agile Enthusiast
+          <span>
+            ||
+          </span>
+        </div>
+      </h2>
+      <div
+        class="descriptions"
+      >
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Web Developer
+          </h3>
+          <p>
+            Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Skills
+          </h3>
+          <p>
+            Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Agile Methodology
+          </h3>
+          <p>
+            Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="projects"
+    >
+      <div
+        id="proj"
+      >
+          
+      </div>
+      <h2
+        data-aos="flip-left"
+        data-aos-duration="1500"
+        data-aos-easing="ease-out-cubic"
+      >
+        <span>
+          ||
+        </span>
+        PROJECTS
+        <span>
+          ||
+        </span>
+      </h2>
+      <div
+        class="links projs"
+      >
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Hello Melon
+          </a>
+        </div>
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Forget Me Not
+          </a>
+        </div>
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Lambda MUD
+          </a>
+        </div>
+      </div>
+      <div
+        class="proj-list"
+      >
+        <div
+          id="helloMelon"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Hello Melon
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              A nutrition tracking application that provides a visualization of eating patterns and nutritional data to empower people to take control of their health.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                GraphQL
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Strip
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Hello Melon App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="helloMelon_home.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://hello-melon-lambda.netlify.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  VIDEO
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/labspt3-nutrition-tracker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/hello-melon"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="fmn"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Forget Me Not
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              Forget ME Not is an application that sends thoughtful messages, on your behalf, to people you know on their special day.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                Redux
+                <span>
+                  ||
+                </span>
+                Node
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Sendgrid
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Forget Me Not App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="FMN_home.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://forgetmenot.netlify.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/leila100/forgetMeNot"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/fmn"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="mud"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Lambda MUD
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar, and then find their way to the door. Players can also interact with each other by using a chatroom.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                Django
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Pusher
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Lambda MUD App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="lambdamud.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://lambda-mud7.netlify.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/LambdaMUD"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/mud"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        id="home"
+      >
+        <div
+          class="header"
+        >
+          <img
+            alt="desk"
+            class="header_img"
+            src="headerImg.jpg"
+          />
+          <div
+            class="job_title"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            Web/Software Developer
+          </div>
+          <div
+            class="header_body"
+            data-aos="fade-zoom-in"
+            data-aos-duration="3000"
+            data-aos-easing="ease-out-cubic"
+          >
+            <div
+              class="name"
+            >
+              <img
+                alt="Leila Berrouayel"
+                class="leila_img"
+                src="Leila.jpg"
+              />
+               
+              <div>
+                Leila Berrouayel
+              </div>
+            </div>
+            <div
+              class="qualities"
+            >
+              Reliable . Committed . Dependable
+            </div>
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="Resume - Leila berrouayel.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  RESUME
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a>
+                  Projects
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="about"
+      >
+        <h2>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Web Developer
+            <span>
+              ||
+            </span>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            React, Node, JavaScript, Python, CSS
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <span>
+              ||
+            </span>
+            Agile Enthusiast
+            <span>
+              ||
+            </span>
+          </div>
+        </h2>
+        <div
+          class="descriptions"
+        >
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Web Developer
+            </h3>
+            <p>
+              Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Skills
+            </h3>
+            <p>
+              Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+            </p>
+          </div>
+          <div
+            class="desc"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <h3>
+              Agile Methodology
+            </h3>
+            <p>
+              Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="projects"
+      >
+        <div
+          id="proj"
+        >
+            
+        </div>
+        <h2
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          PROJECTS
+          <span>
+            ||
+          </span>
+        </h2>
+        <div
+          class="links projs"
+        >
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Hello Melon
+            </a>
+          </div>
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Forget Me Not
+            </a>
+          </div>
+          <div
+            class="link"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease-out-cubic"
+          >
+            <a>
+              Lambda MUD
+            </a>
+          </div>
+        </div>
+        <div
+          class="proj-list"
+        >
+          <div
+            id="helloMelon"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Hello Melon
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                A nutrition tracking application that provides a visualization of eating patterns and nutritional data to empower people to take control of their health.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  GraphQL
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Strip
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Hello Melon App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="helloMelon_home.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://hello-melon-lambda.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    VIDEO
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/labspt3-nutrition-tracker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/hello-melon"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="fmn"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Forget Me Not
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                Forget ME Not is an application that sends thoughtful messages, on your behalf, to people you know on their special day.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  Redux
+                  <span>
+                    ||
+                  </span>
+                  Node
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Sendgrid
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Forget Me Not App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="FMN_home.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://forgetmenot.netlify.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/leila100/forgetMeNot"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/fmn"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="mud"
+          >
+              
+          </div>
+          <div
+            class="proj"
+          >
+            <div
+              class="title"
+            >
+              <h2>
+                Lambda MUD
+              </h2>
+              <button
+                class="top"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                Top
+              </button>
+            </div>
+            <div
+              class="description"
+            >
+              <p>
+                A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar, and then find their way to the door. Players can also interact with each other by using a chatroom.
+              </p>
+            </div>
+            <div
+              class="details"
+            >
+              <div
+                class="skills"
+              >
+                <h4>
+                  Tech
+                </h4>
+                <div>
+                  <span>
+                    ||
+                  </span>
+                  React
+                  <span>
+                    ||
+                  </span>
+                  Django
+                  <span>
+                    ||
+                  </span>
+                  Sqlite3
+                  <span>
+                    ||
+                  </span>
+                  Pusher
+                  <span>
+                    ||
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Lambda MUD App"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+                src="lambdamud.png"
+              />
+              <div
+                class="links"
+              >
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://lambda-mud7.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LINK
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="https://github.com/LambdaMUD"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    CODE
+                  </a>
+                </div>
+                <div
+                  class="link"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-out-cubic"
+                >
+                  <a
+                    href="/mud"
+                  >
+                    DETAILS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      id="home"
+    >
+      <div
+        class="header"
+      >
+        <img
+          alt="desk"
+          class="header_img"
+          src="headerImg.jpg"
+        />
+        <div
+          class="job_title"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          Web/Software Developer
+        </div>
+        <div
+          class="header_body"
+          data-aos="fade-zoom-in"
+          data-aos-duration="3000"
+          data-aos-easing="ease-out-cubic"
+        >
+          <div
+            class="name"
+          >
+            <img
+              alt="Leila Berrouayel"
+              class="leila_img"
+              src="Leila.jpg"
+            />
+             
+            <div>
+              Leila Berrouayel
+            </div>
+          </div>
+          <div
+            class="qualities"
+          >
+            Reliable . Committed . Dependable
+          </div>
+          <div
+            class="links"
+          >
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a
+                href="Resume - Leila berrouayel.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                RESUME
+              </a>
+            </div>
+            <div
+              class="link"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              <a>
+                Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="about"
+    >
+      <h2>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Web Developer
+          <span>
+            ||
+          </span>
+        </div>
+        <div
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          React, Node, JavaScript, Python, CSS
+        </div>
+        <div
+          data-aos="flip-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <span>
+            ||
+          </span>
+          Agile Enthusiast
+          <span>
+            ||
+          </span>
+        </div>
+      </h2>
+      <div
+        class="descriptions"
+      >
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Web Developer
+          </h3>
+          <p>
+            Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Skills
+          </h3>
+          <p>
+            Wrote production-ready code using ReactJS, Redux, and CSS on the front-end and NodeJS and Express, or Python on the back-end to build single page applications.
+          </p>
+        </div>
+        <div
+          class="desc"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <h3>
+            Agile Methodology
+          </h3>
+          <p>
+            Lambda School courses utilize the Agile methodology. They are all divided into sprints, with stand-ups meetings and a sprint challenge at the end of each sprint.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="projects"
+    >
+      <div
+        id="proj"
+      >
+          
+      </div>
+      <h2
+        data-aos="flip-left"
+        data-aos-duration="1500"
+        data-aos-easing="ease-out-cubic"
+      >
+        <span>
+          ||
+        </span>
+        PROJECTS
+        <span>
+          ||
+        </span>
+      </h2>
+      <div
+        class="links projs"
+      >
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Hello Melon
+          </a>
+        </div>
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Forget Me Not
+          </a>
+        </div>
+        <div
+          class="link"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-easing="ease-out-cubic"
+        >
+          <a>
+            Lambda MUD
+          </a>
+        </div>
+      </div>
+      <div
+        class="proj-list"
+      >
+        <div
+          id="helloMelon"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Hello Melon
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              A nutrition tracking application that provides a visualization of eating patterns and nutritional data to empower people to take control of their health.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                GraphQL
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Strip
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Hello Melon App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="helloMelon_home.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://hello-melon-lambda.netlify.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=yAJ2viGBuEo&feature=youtu.be"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  VIDEO
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/labspt3-nutrition-tracker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/hello-melon"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="fmn"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Forget Me Not
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              Forget ME Not is an application that sends thoughtful messages, on your behalf, to people you know on their special day.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                Redux
+                <span>
+                  ||
+                </span>
+                Node
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Sendgrid
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Forget Me Not App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="FMN_home.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://forgetmenot.netlify.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/leila100/forgetMeNot"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/fmn"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="mud"
+        >
+            
+        </div>
+        <div
+          class="proj"
+        >
+          <div
+            class="title"
+          >
+            <h2>
+              Lambda MUD
+            </h2>
+            <button
+              class="top"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+            >
+              Top
+            </button>
+          </div>
+          <div
+            class="description"
+          >
+            <p>
+              A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar, and then find their way to the door. Players can also interact with each other by using a chatroom.
+            </p>
+          </div>
+          <div
+            class="details"
+          >
+            <div
+              class="skills"
+            >
+              <h4>
+                Tech
+              </h4>
+              <div>
+                <span>
+                  ||
+                </span>
+                React
+                <span>
+                  ||
+                </span>
+                Django
+                <span>
+                  ||
+                </span>
+                Sqlite3
+                <span>
+                  ||
+                </span>
+                Pusher
+                <span>
+                  ||
+                </span>
+              </div>
+            </div>
+            <img
+              alt="Lambda MUD App"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-out-cubic"
+              src="lambdamud.png"
+            />
+            <div
+              class="links"
+            >
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://lambda-mud7.netlify.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LINK
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="https://github.com/LambdaMUD"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  CODE
+                </a>
+              </div>
+              <div
+                class="link"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-easing="ease-out-cubic"
+              >
+                <a
+                  href="/mud"
+                >
+                  DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
