@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,6 +20,7 @@ function App() {
         <Route path='/hello-melon' component={HelloMelon} />
         <Route path='/fmn' component={ForgetMeNot} />
         <Route path='/mud' component={LambdaMUD} />
+        <Redirect to='/' />
       </Switch>
     </div>
   );
