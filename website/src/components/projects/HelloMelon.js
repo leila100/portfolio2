@@ -69,7 +69,7 @@ const HelloMelon = () => {
             <span>||</span> React<span>||</span> GraphQL<span>||</span>
           </div>
           <div data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-            sqlite3<span>||</span> Strip<span>||</span> chart.js<span>||</span> FullCalendar
+            sqlite3<span>||</span> Stripe<span>||</span> chart.js<span>||</span> FullCalendar
           </div>
           <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
