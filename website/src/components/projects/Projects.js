@@ -58,7 +58,7 @@ const Projects = () => {
             <div className='skills'>
               <h4>Tech</h4>
               <div>
-                <span>||</span>React<span>||</span>GraphQL<span>||</span>Sqlite3<span>||</span>Strip<span>||</span>
+                <span>||</span>React<span>||</span>GraphQL<span>||</span>Sqlite3<span>||</span>Stripe<span>||</span>
               </div>
             </div>
             <img
