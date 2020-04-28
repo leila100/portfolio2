@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header id='home'>
       <div className='header'>
-        <div className='image_container'>
+        <div className='headerContainer'>
           <img src={leila} alt='desk' className='leila' />
           <div className='job_title'>Web/Software Developer</div>
           <div className='skills'>
