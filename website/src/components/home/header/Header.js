@@ -1,7 +1,6 @@
 import React from "react";
 
 import leila from "../../../assets/images/Leila.png";
-import header_image from "../../../assets/images/headerImg.jpg";
 
 const Header = () => {
   return (

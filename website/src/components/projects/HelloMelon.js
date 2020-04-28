@@ -19,7 +19,7 @@ const HelloMelon = () => {
       <header id='home'>
         <div className='header'>
           <img src={HMHeader} alt='food' className='header_img' />
-          <div className='job_title' data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
+          <div className='message' data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             Take control of your health
           </div>
           <div

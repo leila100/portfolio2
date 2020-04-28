@@ -3,17 +3,6 @@ import React from "react";
 const About = () => {
   return (
     <section className='about'>
-      <h2>
-        <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-          <span>||</span>Web Developer<span>||</span>
-        </div>
-        <div data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-          React, Node, JavaScript, Python, CSS
-        </div>
-        <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-          <span>||</span>Agile Enthusiast<span>||</span>
-        </div>
-      </h2>
       <div className='descriptions'>
         <div className='desc' data-aos='fade-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
           <h3>Web Developer</h3>
