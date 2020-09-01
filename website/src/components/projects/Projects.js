@@ -120,7 +120,7 @@ const Projects = () => {
             <div className='skills'>
               <h4>Tech</h4>
               <div>
-                <span>||</span>React<span>||</span>Redux<span>||</span>Node<span>||</span>Sqlite3<span>||</span>Sendgrid
+                <span>||</span>React<span>||</span>Node<span>||</span>Sqlite3<span>||</span>Sendgrid<span>||</span>SASS
                 <span>||</span>
               </div>
             </div>

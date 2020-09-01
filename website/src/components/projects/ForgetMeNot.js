@@ -62,10 +62,10 @@ const ForgetMeNot = () => {
             <span>||</span> React<span>||</span> ReactHooks<span>||</span>
           </div>
           <div data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-            Redux<span>||</span> Node<span>||</span>
+            sqlite3<span>||</span> Node<span>||</span>
           </div>
           <div data-aos='flip-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
-            sqlite3<span>||</span> Sendgrid<span>||</span> FullCalendar
+            Sendgrid<span>||</span>SASS<span>||</span> FullCalendar
           </div>
           <div data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <span>||</span> StyledComponents<span>||</span> MaterialUI<span>||</span>
@@ -78,7 +78,7 @@ const ForgetMeNot = () => {
               Forget Me Not is an application that sends thoughtful messages, on your behalf, to people you know on
               their special day.
             </p>
-            <p>Added some technology (Redux for example), and refactored the code to create Forget Me Not.</p>
+            <p>Added some technology (React hooks for example), and refactored the code to create Forget Me Not.</p>
           </div>
           <div className='desc' data-aos='fade-right' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             <h3>Team</h3>
